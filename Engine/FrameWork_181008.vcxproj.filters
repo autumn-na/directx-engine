@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{29028200-1341-4ed6-b7e4-1418fab867c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{faeb6000-93a7-44dc-add7-91714d1008e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Add-On">
+      <UniqueIdentifier>{ab23f8ce-aeb4-4387-987a-00b35382a987}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicMng.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowNS.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMng.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMng.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectMng.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMng.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="DataMng.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMng.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Add-On</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Add-On</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Add-On</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Add-On</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Add-On</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUp.h" />
+    <ClInclude Include="Cut.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicMng.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMng.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMng.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMng.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMng.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="DataMng.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMng.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Add-On</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Add-On</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Add-On</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Add-On</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Add-On</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUp.cpp" />
+    <ClCompile Include="Cut.cpp" />
+  </ItemGroup>
+</Project>
