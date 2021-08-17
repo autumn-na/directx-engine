@@ -2,7 +2,7 @@
 Game engine using DirectX and WinAPI.
 
 ## Table of Contents
-- [ChangeLog](#ChangeLog)
+- [Changelog](#Changelog)
 
 ## ChangeLog
 ### [Unreleased] - 2018-10-08
